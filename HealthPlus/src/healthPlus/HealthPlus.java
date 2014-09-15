@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package healthPlus;
 
 import javafx.application.Application;
@@ -17,14 +16,13 @@ import javafx.stage.Stage;
  * @author Navneet
  */
 public class HealthPlus extends Application {
-    
-    @Override
+
+     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("HealthPlusMain.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("Login.fxml"));
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
+        stage.setTitle("Login");
         stage.show();
     }
 
@@ -34,5 +32,5 @@ public class HealthPlus extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }
