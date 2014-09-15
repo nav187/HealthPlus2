@@ -2,12 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
-        <group/>
-=======
         <group>
-            <file>file:/Users/Anju/HealthPlus2/HealthPlus/src/healthPlus/HealthPlus.java</file>
+            <file>file:/C:/Users/Navneet/Documents/HealthPlus2/HealthPlus/src/healthPlus/HealthPlusMainController.java</file>
+            <file>file:/C:/Users/Navneet/Documents/HealthPlus2/HealthPlus/src/healthPlus/HealthPlusMain.fxml</file>
+            <file>file:/C:/Users/Navneet/Documents/HealthPlus2/HealthPlus/src/healthPlus/HealthPlus.java</file>
+            <file>file:/C:/Users/Navneet/Documents/HealthPlus2/HealthPlus/src/healthPlus/LoginController.java</file>
         </group>
->>>>>>> d5ce67f75dd1dd977329b7a40ca44983c1446204
     </open-files>
 </project-private>

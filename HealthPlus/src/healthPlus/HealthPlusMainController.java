@@ -389,14 +389,14 @@ public class HealthPlusMainController implements Initializable {
             conn = DbConn.connect();
             String sql = "INSERT INTO pr_patient (patient_id, first_name, last_name, date_of_birth, gender, phone_number, address, "
                     + "email, city, state, post_code, country, emerg_fname, emerg_lname, emerg_number, emerg_relo) "
-                    + "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                    + "VALUES (seq_patient.nextval, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
             
             PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setString(1, add_first.getText());
             stmt.setString(2, add_last.getText());
             formatter = new SimpleDateFormat("dd-MMM-yy");
             stmt.setDate(3, (Date) formatter.parse(add_dob.getText()));
-            //stmt.setString(4, add_gender.getClass().getResourceAsStream(add_gender.getSelectedToggle().getUserData().toString()));
+            stmt.setString(4, add_gender.getSelectedToggle().getUserData().toString());
             stmt.setInt(5, Integer.parseInt(add_phone.getText()));
             stmt.setString(6, add_address.getText());
             stmt.setString(7, add_email.getText());
