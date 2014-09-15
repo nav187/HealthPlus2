@@ -85,19 +85,29 @@
                            </image>
                         </ImageView>
                         <Button fx:id="nav_home" layoutX="18.0" layoutY="301.0" mnemonicParsing="false" opacity="0.0" prefHeight="40.0" prefWidth="134.0">
-                           
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
                         </Button>
                         <Button fx:id="nav_patient" layoutX="18.0" layoutY="385.0" mnemonicParsing="false" opacity="0.0" prefHeight="52.0" prefWidth="148.0">
-                           
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
                         </Button>
                         <Button fx:id="nav_reports" layoutX="21.0" layoutY="475.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="152.0">
-                           
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
                         </Button>
                         <Button fx:id="nav_admin" layoutX="14.0" layoutY="566.0" mnemonicParsing="false" opacity="0.0" prefHeight="49.0" prefWidth="148.0">
-                           
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
                         </Button>
                         <Button fx:id="nav_logout" layoutX="73.0" layoutY="713.0" mnemonicParsing="false" opacity="0.0" prefHeight="51.0" prefWidth="51.0">
-                           
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
                         </Button>
                         <Label layoutX="75.0" layoutY="750.0" text="Log out" textFill="#9bcf19">
                            <font>
@@ -119,7 +129,9 @@
                                     <Pane prefHeight="82.0" prefWidth="1074.0" style="-fx-border-color: #aeb4c2; -fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <children>
                                           <TextField fx:id="search2" layoutX="79.0" layoutY="21.0" prefHeight="40.0" prefWidth="262.0" promptText="Search">
-                                            
+                                             <cursor>
+                                                <Cursor fx:constant="TEXT" />
+                                             </cursor>
                                           </TextField>
                                           <ImageView fitHeight="29.0" fitWidth="29.0" layoutX="42.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
                                              <image>
@@ -137,10 +149,14 @@
                                              </image>
                                           </ImageView>
                                           <Button fx:id="nav_usermenu" layoutX="898.0" layoutY="25.0" mnemonicParsing="false" opacity="0.0" prefHeight="33.0" prefWidth="128.0">
-                                             
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
                                           </Button>
                                        </children>
-                                       
+                                       <cursor>
+                                          <Cursor fx:constant="DEFAULT" />
+                                       </cursor>
                                     </Pane>
                                  </children>
                               </AnchorPane>
@@ -154,7 +170,9 @@
                                     <Pane prefHeight="718.0" prefWidth="1069.0" style="-fx-background-color: #ffffff; -fx-border-color: #aeb4c2;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <children>
                                           <TextField fx:id="search_last" layoutX="193.0" layoutY="176.0" prefHeight="26.0" prefWidth="246.0">
-                                             
+                                             <font>
+                                                <Font name="Helvetica" size="14.0" />
+                                             </font>
                                           </TextField>
                                           <ScrollPane layoutX="91.0" layoutY="299.0" prefViewportHeight="368.0" prefViewportWidth="835.0">
                                              <content>
@@ -162,7 +180,9 @@
                                              </content>
                                           </ScrollPane>
                                           <TextField fx:id="search_first" layoutX="193.0" layoutY="108.0" prefHeight="26.0" prefWidth="246.0">
-                                             
+                                             <font>
+                                                <Font name="Helvetica" size="14.0" />
+                                             </font>
                                           </TextField>
                                           <Button fx:id="search_button" layoutX="832.0" layoutY="239.0" mnemonicParsing="false" onAction="#handleSearch2" prefHeight="26.0" prefWidth="94.0" text="Search">
                                              <font>
@@ -185,7 +205,9 @@
                                              </font>
                                           </Label>
                                           <TextField fx:id="search_healthcover" layoutX="682.0" layoutY="108.0" prefHeight="26.0" prefWidth="246.0">
-                                             
+                                             <font>
+                                                <Font name="Helvetica" size="14.0" />
+                                             </font>
                                           </TextField>
                                           <ChoiceBox fx:id="search_diagnosis" layoutX="682.0" layoutY="176.0" prefHeight="26.0" prefWidth="246.0" />
                                           <RadioButton fx:id="search_male" layoutX="307.0" layoutY="239.0" mnemonicParsing="false" text="Male">
@@ -302,13 +324,19 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_first" layoutX="146.0" layoutY="60.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_last" layoutX="146.0" layoutY="105.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_dob" layoutX="146.0" layoutY="150.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <RadioButton fx:id="view_female" layoutX="146.0" layoutY="195.0" mnemonicParsing="false" text="Female">
                                                                <font>
@@ -324,25 +352,39 @@
                                                                </font>
                                                             </RadioButton>
                                                             <TextField fx:id="view_phone" layoutX="146.0" layoutY="237.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_address" layoutX="673.0" layoutY="60.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_city" layoutX="673.0" layoutY="105.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_state" layoutX="673.0" layoutY="144.0" prefHeight="26.0" prefWidth="65.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_postcode" layoutX="842.0" layoutY="144.0" prefHeight="26.0" prefWidth="65.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_country" layoutX="673.0" layoutY="191.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_email" layoutX="673.0" layoutY="237.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="47.0" layoutY="302.0" prefHeight="21.0" prefWidth="236.0" text="Emergency Contact Details" textFill="#0b2e59">
                                                                <font>
@@ -350,13 +392,19 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_ephone" layoutX="673.0" layoutY="390.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_elast" layoutX="155.0" layoutY="390.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_efirst" layoutX="155.0" layoutY="345.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="590.0" layoutY="395.0" text="Phone">
                                                                <font>
@@ -374,7 +422,9 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_erelationship" layoutX="673.0" layoutY="345.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="590.0" layoutY="350.0" text="Relationship">
                                                                <font>
@@ -387,7 +437,9 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_referraldoc" layoutX="155.0" layoutY="495.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="45.0" layoutY="452.0" prefHeight="16.0" prefWidth="182.0" text="Referral " textFill="#0b2e59">
                                                                <font>
@@ -400,10 +452,14 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_practiceaddress" layoutX="673.0" layoutY="540.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_practice" layoutX="673.0" layoutY="495.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="590.0" layoutY="500.0" text="Practice ">
                                                                <font>
@@ -425,17 +481,27 @@
                                                                   <Font name="Helvetica" size="14.0" />
                                                                </font>
                                                             </Label>
+                                                            <DatePicker fx:id="view_referraldate" layoutX="155.0" layoutY="540.0" prefHeight="26.0" prefWidth="233.0" />
+                                                            <DatePicker fx:id="view_referralexpiry" layoutX="155.0" layoutY="585.0" prefHeight="26.0" prefWidth="233.0" />
                                                             <TextField fx:id="view_referralcountry" layoutX="673.0" layoutY="671.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_referralpostcode" layoutX="842.0" layoutY="624.0" prefHeight="26.0" prefWidth="65.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_referralstate" layoutX="673.0" layoutY="624.0" prefHeight="26.0" prefWidth="65.0">
-                                                              
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <TextField fx:id="view_city1" layoutX="673.0" layoutY="585.0" prefHeight="26.0" prefWidth="233.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <Label layoutX="590.0" layoutY="680.0" text="Country">
                                                                <font>
@@ -504,7 +570,9 @@
                                                             <ScrollPane layoutX="44.0" layoutY="445.0" prefHeight="167.0" prefViewportHeight="131.0" prefViewportWidth="430.0" prefWidth="868.0">
                                                                <content>
                                                                   <TextArea fx:id="view_medicalhis" layoutX="44.0" layoutY="581.0" prefHeight="150.0" prefWidth="868.0">
-                                                                     
+                                                                     <font>
+                                                                        <Font name="Helvetica" size="14.0" />
+                                                                     </font>
                                                                   </TextArea>
                                                                </content>
                                                             </ScrollPane>
@@ -519,7 +587,9 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_height" layoutX="564.0" layoutY="120.0" prefHeight="26.0" prefWidth="195.0">
-                                                              
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <ScrollPane layoutX="45.0" layoutY="229.0" prefHeight="145.0" prefViewportHeight="143.0" prefViewportWidth="350.0" prefWidth="867.0">
                                                                <content>
@@ -544,7 +614,9 @@
                                                                </font>
                                                             </Label>
                                                             <TextArea fx:id="view_diagnosiscomment" layoutX="45.0" layoutY="111.0" prefHeight="59.0" prefWidth="350.0" promptText="Comments">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextArea>
                                                             <Label layoutX="45.0" layoutY="190.0" text="Allergies" textFill="#0b2e59">
                                                                <font>
@@ -557,12 +629,16 @@
                                                                </font>
                                                             </Label>
                                                             <TextField fx:id="view_weight" layoutX="564.0" layoutY="74.0" prefHeight="26.0" prefWidth="195.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextField>
                                                             <ScrollPane layoutX="45.0" layoutY="682.0" prefHeight="167.0" prefViewportHeight="131.0" prefViewportWidth="430.0" prefWidth="868.0">
                                                                <content>
                                                                   <TextArea fx:id="view_familyhis" layoutX="45.0" layoutY="581.0" prefHeight="150.0" prefWidth="868.0">
-                                                                     
+                                                                     <font>
+                                                                        <Font name="Helvetica" size="14.0" />
+                                                                     </font>
                                                                   </TextArea>
                                                                </content>
                                                             </ScrollPane>
@@ -650,7 +726,9 @@
                                                          </content>
                                                       </ScrollPane>
                                                       <TextField fx:id="view_apptdate" layoutX="97.0" layoutY="75.0" prefHeight="26.0" prefWidth="112.0">
-                                                         
+                                                         <font>
+                                                            <Font name="Helvetica" size="14.0" />
+                                                         </font>
                                                       </TextField>
                                                       <Label layoutX="45.0" layoutY="80.0" text="Date">
                                                          <font>
@@ -663,7 +741,9 @@
                                                          </font>
                                                       </Label>
                                                       <TextField fx:id="view_appttime" layoutX="320.0" layoutY="75.0" prefHeight="26.0" prefWidth="112.0">
-                                                         
+                                                         <font>
+                                                            <Font name="Helvetica" size="14.0" />
+                                                         </font>
                                                       </TextField>
                                                       <Label layoutX="45.0" layoutY="128.0" text="Appointment Notes">
                                                          <font>
@@ -673,7 +753,9 @@
                                                       <ScrollPane layoutX="45.0" layoutY="158.0" prefViewportHeight="81.0" prefViewportWidth="387.0">
                                                          <content>
                                                             <TextArea fx:id="view_apptnotes" layoutX="45.0" layoutY="158.0" prefHeight="81.0" prefWidth="387.0">
-                                                               
+                                                               <font>
+                                                                  <Font name="Helvetica" size="14.0" />
+                                                               </font>
                                                             </TextArea>
                                                          </content>
                                                       </ScrollPane>
@@ -831,13 +913,19 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_first" layoutX="189.0" layoutY="119.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_last" layoutX="189.0" layoutY="164.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_dob" layoutX="189.0" layoutY="209.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <RadioButton fx:id="add_female" layoutX="189.0" layoutY="254.0" mnemonicParsing="false" text="Female">
                                                    <font>
@@ -853,25 +941,39 @@
                                                    </font>
                                                 </RadioButton>
                                                 <TextField fx:id="add_phone" layoutX="189.0" layoutY="299.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_address" layoutX="716.0" layoutY="119.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_city" layoutX="716.0" layoutY="164.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_state" layoutX="716.0" layoutY="203.0" prefHeight="26.0" prefWidth="65.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_postcode" layoutX="882.0" layoutY="201.0" prefHeight="26.0" prefWidth="65.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_country" layoutX="716.0" layoutY="250.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_email" layoutX="716.0" layoutY="299.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="88.0" layoutY="350.0" prefHeight="21.0" prefWidth="236.0" text="Emergency Contact Details" textFill="#0b2e59">
                                                    <font>
@@ -879,13 +981,19 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_ephone" layoutX="714.0" layoutY="446.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_elast" layoutX="196.0" layoutY="438.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_efirst" layoutX="196.0" layoutY="393.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="631.0" layoutY="443.0" text="Phone">
                                                    <font>
@@ -903,7 +1011,9 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_erelationship" layoutX="714.0" layoutY="393.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="631.0" layoutY="398.0" text="Relationship">
                                                    <font>
@@ -916,7 +1026,9 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_referraldoc" layoutX="196.0" layoutY="545.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="86.0" layoutY="502.0" prefHeight="16.0" prefWidth="182.0" text="Referral " textFill="#0b2e59">
                                                    <font>
@@ -929,10 +1041,14 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_refaddress" layoutX="714.0" layoutY="590.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_refpractice" layoutX="714.0" layoutY="545.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="631.0" layoutY="550.0" text="Practice ">
                                                    <font>
@@ -954,17 +1070,27 @@
                                                       <Font name="Helvetica" size="14.0" />
                                                    </font>
                                                 </Label>
+                                                <DatePicker fx:id="add_referraldate" layoutX="196.0" layoutY="590.0" prefHeight="26.0" prefWidth="233.0" />
+                                                <DatePicker fx:id="add_referralexpiry" layoutX="196.0" layoutY="635.0" prefHeight="26.0" prefWidth="233.0" />
                                                 <TextField fx:id="add_refcountry" layoutX="714.0" layoutY="721.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_refpostcode" layoutX="884.0" layoutY="674.0" prefHeight="26.0" prefWidth="65.0">
-                                                  
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_refstate" layoutX="714.0" layoutY="674.0" prefHeight="26.0" prefWidth="65.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <TextField fx:id="add_refcity" layoutX="714.0" layoutY="635.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="631.0" layoutY="726.0" text="Country">
                                                    <font>
@@ -988,7 +1114,9 @@
                                                 </Label>
                                                 <Separator layoutX="40.0" layoutY="780.0" prefHeight="21.0" prefWidth="908.0" />
                                                 <TextField fx:id="add_weight" layoutX="176.0" layoutY="861.0" prefHeight="26.0" prefWidth="195.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="85.0" layoutY="911.0" prefHeight="16.0" prefWidth="59.0" text="Height">
                                                    <font>
@@ -1001,7 +1129,9 @@
                                                    </font>
                                                 </Label>
                                                 <TextField fx:id="add_height" layoutX="176.0" layoutY="907.0" prefHeight="26.0" prefWidth="195.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Label layoutX="85.0" layoutY="816.0" text="Measurements" textFill="#0b2e59">
                                                    <font>
@@ -1037,7 +1167,9 @@
                                                 <ScrollPane layoutX="88.0" layoutY="1223.0" prefHeight="167.0" prefViewportHeight="131.0" prefViewportWidth="430.0" prefWidth="391.0">
                                                    <content>
                                                       <TextArea fx:id="add_medhis" layoutX="44.0" layoutY="581.0" prefHeight="165.0" prefWidth="389.0">
-                                                         
+                                                         <font>
+                                                            <Font name="Helvetica" size="14.0" />
+                                                         </font>
                                                       </TextArea>
                                                    </content>
                                                 </ScrollPane>
@@ -1048,7 +1180,9 @@
                                                 </Label>
                                                 <Label layoutX="568.0" layoutY="866.0" text="Health Fund" />
                                                 <TextField fx:id="add_healthfund" layoutX="698.0" layoutY="861.0" prefHeight="26.0" prefWidth="233.0">
-                                                   
+                                                   <font>
+                                                      <Font name="Helvetica" size="14.0" />
+                                                   </font>
                                                 </TextField>
                                                 <Button fx:id="add_save" layoutX="669.0" layoutY="1431.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="126.0" style="-fx-background-color: #ffffff; -fx-border-color: #9bcf19; -fx-border-width: 2;">
                                                    <graphic>
@@ -1085,7 +1219,9 @@
                                                 <ScrollPane layoutX="545.0" layoutY="1223.0" prefHeight="167.0" prefViewportHeight="131.0" prefViewportWidth="430.0" prefWidth="391.0">
                                                    <content>
                                                       <TextArea fx:id="add_famhis" layoutX="44.0" layoutY="581.0" prefHeight="165.0" prefWidth="389.0">
-                                                         
+                                                         <font>
+                                                            <Font name="Helvetica" size="14.0" />
+                                                         </font>
                                                       </TextArea>
                                                    </content>
                                                 </ScrollPane>
@@ -1108,4 +1244,7 @@
          </children>
       </HBox>
    </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
 </AnchorPane>
